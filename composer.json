@@ -1,0 +1,32 @@
+{
+	"name": "perry-rylance/wordpress-plugin",
+	
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	
+	"description": "A basic boilerplate WordPress plugin, including activation and de-activation hooks, first run, update detection, admin menu and script loading callbacks.",
+	
+	"type": "library",
+	"keywords": ["WordPress", "Boilerplate"],
+	"homepage": "https://perryrylance.com",
+	"license": "MIT",
+	
+	"authors": [
+		{
+			"name": "Perry Rylance",
+			"email": "contact@perryrylance.com",
+			"homepage": "https://perryrylance.com",
+			"role": "Developer"
+		}
+	],
+	
+    "require": {
+		"php": ">=5.4.0"
+    },
+	
+	"autoload": {
+		"psr-4": {
+			"PerryRylance\\WordPress\\": ["src/"]
+		}
+	}
+}
