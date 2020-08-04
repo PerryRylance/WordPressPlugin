@@ -22,7 +22,7 @@ The following methods can be overridden as and where you need to do so:
 - `onActivate` (Please remember to call the base method)
 - `onDeactivate`
 - `onFirstRun`
-- `onUpdated($prevVersion)
+- `onUpdated($prevVersion)`
 - `onTextDomain`
 - `onAdminMenu`
 - `onAdminEnqueueScripts`
