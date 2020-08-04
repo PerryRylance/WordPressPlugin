@@ -1,7 +1,7 @@
 {
 	"name": "perry-rylance/wordpress-plugin",
 	
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minimum-stability": "stable",
 	
 	"description": "A basic boilerplate WordPress plugin, including activation and de-activation hooks, first run, update detection, admin menu and script loading callbacks.",
@@ -27,6 +27,7 @@
 	"autoload": {
 		"psr-4": {
 			"PerryRylance\\WordPress\\": ["src/"]
-		}
+		},
+		"classmap": ["src"]
 	}
 }
