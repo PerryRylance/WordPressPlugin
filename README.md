@@ -6,7 +6,7 @@ A basic boilerplate WordPress plugin, including activation and de-activation hoo
 
 I recommend installing this library via Composer:
 
-`composer require perry-rylance/wordpress-plugin-boilerplate`
+`composer require perry-rylance/wordpress-plugin`
 
 ## Usage
 
